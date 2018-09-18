@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SomeGame</title>
+    <link rel="stylesheet" href="assets/css/blue.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div id="container">
+<Header>
+    <h1>THE TRIVIA GAME</h1>
+    <p>Chose the Right answer and win the prize of knowing you are <strong>smarts</strong>!</p>
+</Header>
+<section>
+    <div id="results"></div>
+    <form name ="quizeform" onsubmit="return subAnswers()">
+        <h3>1. What color is the sky?</h3>
+        <input type="radio" name="q1" value="a" id="a1a">a. Blue<br>
+        <input type="radio" name="q1" value="b" id="a1b">b. Yellow<br>
+        <input type="radio" name="q1" value="c" id="a1c">c. Green<br><br>
+        
+        <h3>2. What has two had but can't clap?</h3>
+        <input type="radio" name="q2" value="a" id="a2a">a. Clock<br>
+        <input type="radio" name="q2" value="b" id="a2b">b. Seal<br>
+        <input type="radio" name="q2" value="c" id="a2c">c. Tom the Human Man<br><br>
+
+        <h3>3. What is 9+10 ?</h3>
+        <input type="radio" name="q3" value="a" id="a3a">a. 19<br>
+        <input type="radio" name="q3" value="b" id="a3b">b. 21<br>
+        <input type="radio" name="q3" value="c" id="a3c">c. There is no number only strings #Woke<br><br>
+
+        <h3>4. What is a greeting in English?</h3>
+        <input type="radio" name="q4" value="a" id="a4a">a. Hello<br>
+        <input type="radio" name="q4" value="b" id="a4b">b. Nǐ hǎo<br>
+        <input type="radio" name="q4" value="c" id="a4c">c. Hola<br>
+        <br><br>
+        <input type="submit" value="Submit The Answers">
+    </form>
+</section>
+</div>
+ <script src="assets/javascript/game.js"></script>
+</body>
+</html>

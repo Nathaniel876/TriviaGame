@@ -1,12 +1,49 @@
-body{
+body {
     color: red;
+    background-image: url('../images/541144.jpg');
+    font-family: Arial, Helvetica, sans-serif;
     
-        /* background-image:  */
-        font-family: Arial, Helvetica, sans-serif
 }
 
-#container{
+#container {
     width: 70%;
-background-color: lightskyblue;
+    background-color: lightskyblue;
+    overflow: auto;
+    margin: 20px auto;
+    opacity: 0.8;
+    padding:25px;
+}
+header{
+    text-align: center;
+    border-bottom: grey 1px;
+}
 
+header h1{
+    margin: 0;
+    padding: 0;
+}
+header p{
+ padding: 0;
+ margin-top: 4px;
+ color: black;
+}
+
+section{
+    min-height:400px;
+}
+input[type="submit"]{
+    background: skyblue;
+    border: 1px;
+    color:black;
+}
+
+results h3{
+    background:skyblue;
+    padding:10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+results span{
+    color:red;
 }
